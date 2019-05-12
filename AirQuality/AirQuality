@@ -1,0 +1,30 @@
+数据集介绍
+数据集为意大利城市中气体传感器的数据，包含
+
+1.Date	(DD/MM/YYYY)
+2.Time	(HH.MM.SS)
+3.True hourly averaged concentration CO in mg/m^3 (reference analyzer)
+4.PT08.S1 (tin oxide) hourly averaged sensor response (nominally CO targeted)
+5.True hourly averaged overall Non Metanic HydroCarbons concentration in microg/m^3 (reference analyzer)
+6.True hourly averaged Benzene concentration in microg/m^3 (reference analyzer)
+7.PT08.S2 (titania) hourly averaged sensor response (nominally NMHC targeted)
+8.True hourly averaged NOx concentration in ppb (reference analyzer)
+9.PT08.S3 (tungsten oxide) hourly averaged sensor response (nominally NOx targeted)
+10.True hourly averaged NO2 concentration in microg/m^3 (reference analyzer)
+11.PT08.S4 (tungsten oxide) hourly averaged sensor response (nominally NO2 targeted)
+12.PT08.S5 (indium oxide) hourly averaged sensor response (nominally O3 targeted)
+13.Temperature in Â°C
+14.Relative Humidity (%)
+15.AH Absolute Humidity
+
+数据预处理
+删除NA
+
+数据可视化
+条形图真实值和预测值对比
+
+结果
+MeanAbsolute Error: 1.0920623441277915
+MeanSquared Error: 2.1082572271184263
+RootMean Squared Error: 1.4519838935464906
+

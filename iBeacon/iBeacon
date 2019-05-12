@@ -1,0 +1,19 @@
+数据集介绍
+数据集为蓝牙信号强度数据
+location: The location of receiving RSSIs from ibeacons b3001 to b3013; symbolic values showing the column and row of the location on the map (e.g., A01 stands for column A, row 1).
+Date: Datetime
+b3001 - b3013: RSSI readings corresponding to the iBeacons; numeric, integers only.
+
+
+分类结果：
+SVM：The Accuracy of SVM is 0.176056
+决策树：The Accuracy of tree is 0.309859
+随机森林：The Accuracy of RandomForest is 0.320423
+
+聚类：
+DBScan
+Kmeans
+GMM
+层次聚类
+
+结果：使用t-SNE降维
